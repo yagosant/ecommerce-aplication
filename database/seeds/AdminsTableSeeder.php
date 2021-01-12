@@ -13,7 +13,7 @@ class AdminsTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        //gera nome ficticios
         $faker = Faker::create();
 
         Admin::create([
